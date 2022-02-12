@@ -1,0 +1,61 @@
+.footer {
+    position: relative;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #000000;
+    border: 1px solid red;
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 -70px;
+        // padding-top: 172px;
+        // padding-bottom: 84px;
+        // padding-left: 110px;
+        // padding-right: 110px;
+        padding: 172px 84px 110px;
+
+    }
+
+    &__title {
+        display: block;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+
+    &__inst {
+
+        &-img {
+            width: 33px;
+            height: 33px;
+        }
+    }
+
+
+    &__inst,
+    &__telephone,
+    &__about {
+        width: 33.33%;
+        padding: 0 70px;
+    }
+
+    &__decor-1 {
+        position: absolute;
+        left: 5%;
+        top: 47%;
+        transform: translate(-50%,-50%);
+        width: 110px;
+        height: 125px;
+    }
+    
+    &__decor-2 {
+        position: absolute;
+        left: 90%;
+        top: 47%;
+        transform: translate(-50%,-50%);
+        width: 233px;
+        height: 264px;
+    }
+}

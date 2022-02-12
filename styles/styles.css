@@ -41,7 +41,6 @@ a {
 .container {
   max-width: 1220px;
   padding: 0 20px;
-  border: 1px green solid;
   margin: 0 auto;
 }
 
@@ -99,6 +98,50 @@ img {
   width: 30px;
   height: 28px;
   margin-right: 15px;
+}
+
+.footer {
+  position: relative;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #000000;
+  border: 1px solid red;
+}
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -70px;
+  padding: 172px 84px 110px;
+}
+.footer__title {
+  display: block;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.footer__inst-img {
+  width: 33px;
+  height: 33px;
+}
+.footer__inst, .footer__telephone, .footer__about {
+  width: 33.33%;
+  padding: 0 70px;
+}
+.footer__decor-1 {
+  position: absolute;
+  left: 5%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+  width: 110px;
+  height: 125px;
+}
+.footer__decor-2 {
+  position: absolute;
+  left: 90%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+  width: 233px;
+  height: 264px;
 }
 
 /*# sourceMappingURL=styles.css.map */
