@@ -1,0 +1,52 @@
+.main {
+
+    &__wrap {
+        display: flex;
+    }
+    &__img {
+        width: 533px;
+        height: 686px;
+    }
+
+    &__txt {
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+
+        &-wrap {
+            border: 1px solid blue;
+        }
+
+        &-heading {
+            display: block;
+            font-weight: 900;
+            font-size: 50px;
+            line-height: 1.18;
+            margin-bottom: 10px;
+        }
+
+        &-subheading {
+            border: 1px solid green;
+            display: block;
+
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 1.17;
+            margin-bottom: 5px;
+        }
+
+        &-button {
+            background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+            border-radius: 7px;
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 1.15;
+            text-align: center;
+            text-transform: uppercase;
+            border: none;
+            color: #FFFFFF;
+            padding: 15px 35px;
+            cursor: pointer;
+        }
+    }
+}

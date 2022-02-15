@@ -1,0 +1,66 @@
+.header2 {
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        
+        &-img {
+            width: 100px;
+            height: 60px;
+            margin-right: 11px;
+        }
+
+        &-title {
+            font-style: italic;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 1.17;
+        }
+    }
+
+    &__nav {
+        margin: 0 -12px;
+        &-list {
+            // display: flex;
+            display: flex;
+        }
+
+        &-item {
+            // display: block;
+            padding: 0 12px;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 1.17;
+        }
+
+        &-link {
+            color: #737373;
+        }
+
+    }
+
+
+    /*
+                        <div class="header2__nav">
+                        <ul class="header2__nav-list">
+                            <li class="header__nav-item">
+                                <a href="#">отзывы</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#">что это?</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#">контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+    */
+
+
+}

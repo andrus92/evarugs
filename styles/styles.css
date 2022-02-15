@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* sass styles/styles.scss:styles/styles.css --watch*/
 *,
 *::before,
@@ -54,6 +55,7 @@ img {
   background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
   padding: 26px 0;
   color: #FFFFFF;
+  margin-bottom: 48px;
 }
 .header__wrap {
   display: flex;
@@ -98,6 +100,103 @@ img {
   width: 30px;
   height: 28px;
   margin-right: 15px;
+}
+
+.header2 {
+  /*
+                      <div class="header2__nav">
+                      <ul class="header2__nav-list">
+                          <li class="header__nav-item">
+                              <a href="#">отзывы</a>
+                          </li>
+                          <li class="header__nav-item">
+                              <a href="#">что это?</a>
+                          </li>
+                          <li class="header__nav-item">
+                              <a href="#">контакты</a>
+                          </li>
+                      </ul>
+                  </div>
+  */
+}
+.header2__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header2__logo {
+  display: flex;
+  align-items: center;
+}
+.header2__logo-img {
+  width: 100px;
+  height: 60px;
+  margin-right: 11px;
+}
+.header2__logo-title {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.header2__nav {
+  margin: 0 -12px;
+}
+.header2__nav-list {
+  display: flex;
+}
+.header2__nav-item {
+  padding: 0 12px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.header2__nav-link {
+  color: #737373;
+}
+
+.main__wrap {
+  display: flex;
+}
+.main__img {
+  width: 533px;
+  height: 686px;
+}
+.main__txt {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+.main__txt-wrap {
+  border: 1px solid blue;
+}
+.main__txt-heading {
+  display: block;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.18;
+  margin-bottom: 10px;
+}
+.main__txt-subheading {
+  border: 1px solid green;
+  display: block;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.17;
+  margin-bottom: 5px;
+}
+.main__txt-button {
+  background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+  border-radius: 7px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 35px;
+  cursor: pointer;
 }
 
 .footer {
